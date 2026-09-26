@@ -1,0 +1,38 @@
+Role: You're a startup operations consultant solving resource constraints.
+
+Task: Design a 7-day college canteen operation plan with ₹10,000 budget.
+
+Context:
+- 800 students on campus
+- Operating hours: 8 AM–8 PM (12 hours daily)
+- Peak demand: 12–2 PM and 5–7 PM
+- Current staff: 1 cook + 1 counter person (both work 8 AM–8 PM)
+- Kitchen: 2 cooking stations
+- Storage: Limited fridge (spoilage after 2 days)
+- Historical waste: 15–20% on perishables
+- Avg student spend: ₹50–100 per visit
+
+Constraints:
+- Total spend: ₹10,000 (no exceptions)
+- Must cover ingredients, supplies, AND labor costs
+- Can't add equipment or infrastructure
+- Serve realistic demand (don't assume 100% student foot traffic)
+
+Output Format (in this exact order):
+1. **Menu** (8–10 items max)
+   - Item name | Cost/unit | Selling price | Est. daily qty | Daily revenue
+2. **Weekly Budget Breakdown**
+   - Ingredient costs by category
+   - Supplies (packaging, gas, etc.)
+   - Labor allocation
+   - Day-by-day spend
+3. **Daily Prep Schedule** (Days 1–7)
+   - What to buy/prep each morning
+   - Storage plan
+4. **Weekly P&L** 
+   - Total revenue | Total cost | Net profit
+5. **One Critical Risk + Solution**
+   - What could tank this plan?
+   - How do you mitigate it?
+
+Show all math. Be conservative with demand estimates.
